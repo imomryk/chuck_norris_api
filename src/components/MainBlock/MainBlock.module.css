@@ -1,0 +1,35 @@
+.mainBlock {
+  flex-grow: 100;
+  position: relative;
+  min-height: 100vh;
+}
+.mainBlock_container {
+  max-width: 784px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.mainBlock_container_blocked {
+  user-select: none;
+  pointer-events: none;
+}
+.mainBlock_filter {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 380px) {
+  .mainBlockClosed {
+    display: none;
+    position: relative;
+  }
+  .mainBlock_filter{
+    display: none;
+  }
+}
