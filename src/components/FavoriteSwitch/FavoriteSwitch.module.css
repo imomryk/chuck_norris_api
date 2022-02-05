@@ -1,0 +1,22 @@
+.favoriteSwitch {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  display: none;
+  cursor: pointer;
+  z-index: 999;
+}
+.favoriteSwitch h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ababab;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 834px) {
+    .favoriteSwitch{
+        display: flex;
+    }
+}

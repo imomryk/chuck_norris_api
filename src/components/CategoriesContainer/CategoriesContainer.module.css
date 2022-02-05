@@ -1,0 +1,4 @@
+.CategoriesContainer{
+display: flex;
+flex-wrap: wrap;
+}

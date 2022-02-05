@@ -1,0 +1,47 @@
+.favoritesContainer {
+  box-sizing: border-box;
+  max-width: 480px;
+  padding: 40px;
+  background: #f8f8f8;
+  min-height: 100vh;
+}
+.favoritesContainerOpen {
+  box-sizing: border-box;
+  max-width: 480px;
+  padding: 40px;
+  background: #f8f8f8;
+  min-height: 100vh;
+}
+
+.favoritesContainer_header {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ababab;
+}
+@media screen and (max-width: 834px) {
+  .favoritesContainer {
+    display: none;
+  }
+  .favoritesContainerOpen {
+    box-sizing: border-box;
+    max-width: 480px;
+
+    padding: 40px;
+    padding-top: 88px;
+    background: #f8f8f8;
+    min-height: 100vh;
+  }
+
+  .favoritesContainer_header {
+    display: none;
+  }
+
+  @media screen and (max-width: 380px) {
+    .favoritesContainerOpen{
+        padding: 20px;
+        padding-top: 88px;
+    }
+  }
+}

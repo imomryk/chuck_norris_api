@@ -1,0 +1,55 @@
+.activeCategoryElem {
+  background: #f8f8f8;
+  border: 2px solid #f8f8f8;
+  box-sizing: border-box;
+  border-radius: 6px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #333333;
+  padding: 6px 15px;
+  cursor: pointer;
+  user-select: none;
+  margin: 5px 5px;
+}
+.categoryElem {
+  border: 2px solid #f8f8f8;
+  box-sizing: border-box;
+  border-radius: 6px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ababab;
+  padding: 6px 15px;
+  cursor: pointer;
+  user-select: none;
+  margin: 5px 5px;
+}
+.categoryElem:hover{
+    background: #f8f8f8;
+  border: 2px solid #f8f8f8;
+  box-sizing: border-box;
+  border-radius: 6px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #333333;
+  padding: 6px 15px;
+  cursor: pointer;
+  user-select: none;
+  margin: 5px 5px;
+}
