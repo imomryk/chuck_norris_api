@@ -159,6 +159,11 @@ header {
   justify-content: flex-end;
   margin-bottom: 10px;
 }
+.favoriteButtonContainer svg{
+  cursor: pointer;
+}
+
+
 
 
 
