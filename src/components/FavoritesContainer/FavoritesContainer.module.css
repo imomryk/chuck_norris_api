@@ -1,13 +1,13 @@
 .favoritesContainer {
   box-sizing: border-box;
-  max-width: 480px;
+  width: 480px;
   padding: 40px;
   background: #f8f8f8;
   min-height: 100vh;
 }
 .favoritesContainerOpen {
   box-sizing: border-box;
-  max-width: 480px;
+  width: 480px;
   padding: 40px;
   background: #f8f8f8;
   min-height: 100vh;
